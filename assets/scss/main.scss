@@ -1,0 +1,12 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "libs/slick/slick.scss";
+@import "libs/slick/slick-theme.scss";
+@import "/node_modules/animate.css/animate.min.css";
+
+@import "partials/variables";
+@import "partials/fonts";
+
+@import "sections/nav";
+@import "sections/header";
+@import "sections/footer";
+@import "sections/modals";
