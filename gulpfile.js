@@ -35,8 +35,8 @@ gulp.task('css', function () {
         ;
 });
 
-gulp.task('php', function () {
-    return gulp.src('**/*.php')
+gulp.task('html', function () {
+    return gulp.src('**/*.html')
         .pipe(livereload())
         ;
 });
@@ -45,7 +45,7 @@ gulp.task('watch', function () {
     livereload.listen();
     gulp.watch('assets/scss/**/*.scss', ['css']);
     gulp.watch('assets/js/**/*.js', ['js']);
-    gulp.watch('**/*.php', ['php']);
+    gulp.watch('**/*.html', ['html']);
 });
 
-gulp.task('default', ['css', 'js', 'php']);
+gulp.task('default', ['css', 'js', 'html']);

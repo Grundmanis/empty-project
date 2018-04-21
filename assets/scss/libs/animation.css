@@ -1,0 +1,234 @@
+/* ========== SECTION 1 - content animation ========== */
+.home > .fp-tableCell h2 {
+	-webkit-transform: translateY(-1000px);
+	        transform: translateY(-1000px);
+	opacity: 0;
+	-webkit-transition: opacity .8s ease-in-out,
+				-webkit-transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: opacity .8s ease-in-out,
+				-webkit-transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out,
+				-webkit-transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+.home.active > .fp-tableCell h2 {
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+	opacity: 1;
+}
+
+.home > .fp-tableCell p {
+	-webkit-transform: translateX(100%);
+	        transform: translateX(100%);
+	opacity: 0;
+	-webkit-transition: opacity .8s ease-in-out,
+				-webkit-transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: opacity .8s ease-in-out,
+				-webkit-transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out;
+	transition: transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .8s ease-in-out,
+				-webkit-transform .8s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+.home > .fp-tableCell p + p {
+	-webkit-transform: translateX(-100%);
+	        transform: translateX(-100%);
+}
+
+.home > .fp-tableCell p + p + p {
+	-webkit-transform: translateX(0) translateY(0);
+	        transform: translateX(0) translateY(0);
+	-webkit-transform: translateY(1000px);
+	        transform: translateY(1000px);
+}
+
+.home.active > .fp-tableCell p {
+	-webkit-transform: translateX(0);
+	        transform: translateX(0);
+	opacity: 1;
+}
+
+.home.active > .fp-tableCell p {
+	-webkit-transition-delay: .2s;
+	        transition-delay: .2s;
+}
+
+.home.active > .fp-tableCell p + p {
+	-webkit-transition-delay: .4s;
+	        transition-delay: .4s;
+}
+
+.home.active > .fp-tableCell p + p + p {
+	-webkit-transition-delay: .6s;
+	        transition-delay: .6s;
+}
+
+/* ========== SECTION 2 - content animation ========== */
+/* Slide 1 */
+.services .slide-one > .fp-tableCell h2,
+.services .slide-one > .fp-tableCell p {
+	-webkit-transform: translateY(-1000px);
+	        transform: translateY(-1000px);
+	opacity: 0;
+	-webkit-transition: opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out;
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+.services.active .slide-one.active > .fp-tableCell h2,
+.services.active .slide-one.active > .fp-tableCell p {
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+	opacity: 1;
+}
+
+.services.active .slide-one.active > .fp-tableCell h2 {
+	-webkit-transition-delay: .44s;
+	        transition-delay: .44s;
+}
+
+.services.active .slide-one.active > .fp-tableCell p {
+	-webkit-transition-delay: .22s;
+	        transition-delay: .22s;
+}
+
+.services.active .slide-one.active > .fp-tableCell p + p {
+	-webkit-transition-delay: 0s;
+	        transition-delay: 0s;
+}
+
+/* Slide 2 */
+.services .slide-two > .fp-tableCell h2,
+.services .slide-two > .fp-tableCell p {
+	-webkit-transform: translateY(1000px);
+	        transform: translateY(1000px);
+	opacity: 0;
+	-webkit-transition: opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out;
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+.services.active .slide-two.active > .fp-tableCell h2,
+.services.active .slide-two.active > .fp-tableCell p {
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+	opacity: 1;
+}
+
+.services.active .slide-two.active > .fp-tableCell p {
+	-webkit-transition-delay: .22s;
+	        transition-delay: .22s;
+}
+
+.services.active .slide-two.active > .fp-tableCell p + p {
+	-webkit-transition-delay: .44s;
+	        transition-delay: .44s;
+}
+
+/* Slide 3 */
+.services .slide-three > .fp-tableCell h2,
+.services .slide-three > .fp-tableCell p {
+	-webkit-transform: translateX(-100%);
+	        transform: translateX(-100%);
+	opacity: 0;
+	-webkit-transition: opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out;
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+.services.active .slide-three.active > .fp-tableCell h2,
+.services.active .slide-three.active > .fp-tableCell p {
+	-webkit-transform: translateX(0);
+	        transform: translateX(0);
+	opacity: 1;
+}
+
+.services.active .slide-three.active > .fp-tableCell p {
+	-webkit-transition-delay: .22s;
+	        transition-delay: .22s;
+}
+
+.services.active .slide-three.active > .fp-tableCell p + p {
+	-webkit-transition-delay: .44s;
+	        transition-delay: .44s;
+}
+
+/* Slide 4 */
+.services .slide-four > .fp-tableCell h2,
+.services .slide-four > .fp-tableCell p {
+	-webkit-transform: translateX(100%);
+	        transform: translateX(100%);
+	opacity: 0;
+	-webkit-transition: opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out;
+	transition: transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99),
+				opacity .66s ease-in-out,
+				-webkit-transform .66s cubic-bezier(0.16, 0.68, 0.43, 0.99);
+}
+
+.services.active .slide-four.active > .fp-tableCell h2,
+.services.active .slide-four.active > .fp-tableCell p {
+	-webkit-transform: translateX(0);
+	        transform: translateX(0);
+	opacity: 1;
+}
+
+.services.active .slide-four.active > .fp-tableCell p {
+	-webkit-transition-delay: .22s;
+	        transition-delay: .22s;
+}
+
+.services.active .slide-four.active > .fp-tableCell p + p {
+	-webkit-transition-delay: .44s;
+	        transition-delay: .44s;
+}
+
+/* ========== SECTION 3 - content animation ========== */
+.works > .fp-tableCell h2,
+.works > .fp-tableCell p {
+	opacity: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+.works.active > .fp-tableCell h2,
+.works.active > .fp-tableCell p {
+	opacity: 1;
+}
+
+.works.active > .fp-tableCell p {
+	-webkit-transition-delay: .33s;
+	        transition-delay: .33s;
+}
+
+.works.active > .fp-tableCell p + p {
+	-webkit-transition-delay: .66s;
+	        transition-delay: .66s;
+}

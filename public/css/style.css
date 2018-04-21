@@ -1,0 +1,188 @@
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #111;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.demo .large-header {
+	background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/xCCDBUa/technology-or-bio-molecular-structure-with-space-for-text-4k-looped-animation-presentation-background_voflj4vnl__F0000.png");
+}
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #F9F1E9;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%, -50%, 0);
+	transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+	text-transform: uppercase;
+	font-size: 4.2em;
+	letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+	.demo .main-title {
+		font-size: 3em;
+	}
+}
+
+
+@font-face {
+  font-family: 'Raund';
+  src: url('../fonts/Raund-Bold-webfont.eot');
+  src: url('../fonts/Raund-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/Raund-Bold-webfont.woff2') format('woff2'),
+	   url('../fonts/Raund-Bold-webfont.woff') format('woff'),
+	   url('../fonts/Raund-Bold-webfont.ttf') format('truetype'), url('../fonts/Raund-Bold-webfont.svg#raundbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raund';
+  src: url('../fonts/Raund-Italic-webfont.eot');
+  src: url('../fonts/Raund-Italic-webfont.eot?#iefix') format('embedded-opentype'), 
+	   url('../fonts/Raund-Italic-webfont.woff2') format('woff2'),
+	   url('../fonts/Raund-Italic-webfont.woff') format('woff'),
+	   url('../fonts/Raund-Italic-webfont.ttf') format('truetype'), url('../fonts/Raund-Italic-webfont.svg#raunditalic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Raund';
+  src: url('../fonts/Raund-webfont.eot');
+  src: url('../fonts/Raund-webfont.eot?#iefix') format('embedded-opentype'),
+	   url('../fonts/Raund-webfont.woff2') format('woff2'),
+	   url('../fonts/Raund-webfont.woff') format('woff'),
+	   url('../fonts/Raund-webfont.ttf') format('truetype'),
+	   url('../fonts/Raund-webfont.svg#raundregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raund', Arial, Helvetica, sans-serif;
+}
+
+.section {
+	text-align: center;
+	color: #fff;
+}
+
+.section h2 {
+	margin: 0 0 20px 0;
+	font-size: 40px;
+}
+
+.section p {
+	margin: 0 0 15px 0;
+	font-size: 20px;
+}
+
+.section p:last-chilf {
+	margin: 0;
+}
+
+.slide {
+	padding: 0 60px;
+	color: #00174f;
+}
+
+.slide:nth-child(1) {
+	background: #ffd200;
+}
+
+.slide:nth-child(2) {
+	background: #ff0000;
+}
+
+.slide:nth-child(3) {
+	background: #ccc;
+}
+
+.slide:nth-child(4) {
+	background: #fff;
+}
+
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent #00174f;
+}
+
+.fp-controlArrow.fp-prev {
+	border-color: transparent #00174f transparent transparent;
+}
+
+.header {
+	width: 100%;
+	padding: 15px;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	background: #222;
+	box-shadow: rgba(0, 0, 0, 1) 0 0 7px;
+}
+
+.main-nav {}
+
+.main-nav ul {
+	margin: 0 -15px;
+	padding: 0;
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-right: -4px;
+	padding: 0 15px;
+	font-size:30px;
+	color: #fff;
+}
+
+.main-nav a {
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.main-nav .active a {
+	color: #ffd200;
+}
+
+@media (min-width:768px) {
+	.section h2 {
+		font-size: 60px;
+	}
+
+	.section p {
+		font-size: 26px;
+	}
+
+	.header {
+		padding: 30px;
+	}
+
+	.main-nav a {
+		font-size: 18px;
+	}
+}

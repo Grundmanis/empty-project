@@ -1,27 +1,33 @@
 @font-face {
-  font-family: 'pfdindisplaypro';
-  src: url('/public/fonts/pfdindisplaypro-reg.ttf');
-  font-weight: normal;
+  font-family: 'Raund';
+  src: url('/public/fonts/Raund-Bold-webfont.eot');
+  src: url('/public/fonts/Raund-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/public/fonts/Raund-Bold-webfont.woff2') format('woff2'),
+  url('/public/fonts/Raund-Bold-webfont.woff') format('woff'),
+  url('/public/fonts/Raund-Bold-webfont.ttf') format('truetype'), url('/public/fonts/Raund-Bold-webfont.svg#raundbold') format('svg');
+  font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'pfdindisplaypro';
-  src: url('/public/fonts/pfdindisplaypro-bold.ttf');
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'Raund';
+  src: url('/public/fonts/Raund-Italic-webfont.eot');
+  src: url('/public/fonts/Raund-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/public/fonts/Raund-Italic-webfont.woff2') format('woff2'),
+  url('/public/fonts/Raund-Italic-webfont.woff') format('woff'),
+  url('/public/fonts/Raund-Italic-webfont.ttf') format('truetype'), url('/public/fonts/Raund-Italic-webfont.svg#raunditalic') format('svg');
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
-  font-family: 'pfdindisplaypro-light';
-  src: url('/public/fonts/pfdindisplaypro-light.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-//Franklin Gothic Medium Cond Regular
-@font-face {
-  font-family: 'Franklin';
-  src: url('/public/fonts/Franklin.ttf');
-  font-weight: bold;
+  font-family: 'Raund';
+  src: url('/public/fonts/Raund-webfont.eot');
+  src: url('/public/fonts/Raund-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/public/fonts/Raund-webfont.woff2') format('woff2'),
+  url('/public/fonts/Raund-webfont.woff') format('woff'),
+  url('/public/fonts/Raund-webfont.ttf') format('truetype'),
+  url('/public/fonts/Raund-webfont.svg#raundregular') format('svg');
+  font-weight: 400;
   font-style: normal;
 }
