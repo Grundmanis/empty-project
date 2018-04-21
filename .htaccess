@@ -1,3 +1,8 @@
+AuthType Basic
+AuthName "Authentication"
+AuthUserFile .htpasswd
+Require valid-user
+
 RewriteEngine On
 RewriteRule ^([^/]*)/$ /?lang=$1 [L]
 
