@@ -1,13 +1,12 @@
 import $ from 'jquery';
 window.jQuery = window.$ = $;
 require('bootstrap/dist/js/bootstrap');
-require('jquery-parallax.js');
+require('./modules/header');
+// require('jquery-parallax.js');
 
 // require('./modules/requests');
 // require('./modules/animations');
-require('./modules/header');
-
-require('slick-carousel');
+// require('slick-carousel');
 // $('.slider').slick({
 //     dots: true,
 //     arrows: false,
