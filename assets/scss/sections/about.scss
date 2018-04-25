@@ -1,18 +1,19 @@
 .section.about {
-  background-image: url('http://www.standard.ee/failid/image/uudised/askfm_kontor/askfm__riia_2014_2.jpg');
+  //background-image: url('https://www.franklinarts.com/media/room-views/Panoramic-Artwork-CONTEMPLATE.jpg');
   -webkit-background-size: cover;
   background-size: cover;
 
-  .white-bg {
-    background-color: #fff;
-    width:100%;
-    height:200%;
-    position: absolute;
-    top:-60%;
-    left:-50%;
-    bottom:0;
-    transform: rotate(30deg);
-  }
+
+  //.white-bg {
+  //  background-color: #fff;
+  //  width:100%;
+  //  height:200%;
+  //  position: absolute;
+  //  top:-60%;
+  //  left:-50%;
+  //  bottom:0;
+  //  transform: rotate(30deg);
+  //}
 
   .container-fluid {
     z-index:20;
@@ -23,7 +24,7 @@
 
   p {
     text-align: justify;
-    max-width:600px;
+    margin-bottom: 0;
   }
 
   /* Our Team

@@ -25,6 +25,8 @@ body {
 .section {
   text-align: center;
   color: #111;
+  background-image: url('https://columbiaairport.com/wp-content/uploads/2015/12/CAE-Website-Full-Background-Texture1902x1200-9.jpg');
+  overflow: hidden;
 }
 
 .section h2 {
@@ -103,13 +105,17 @@ body {
 //  font-size: 16px;
 //  color: #fff;
 //  text-decoration: none;
-//  text-transform: uppercase;
+//  text-transform: uppercase;￼
+Letterpress asymmetrical
+Chillwave hoodie ea gentrify au
 //}
 //
 //.main-nav .active a {
 //  color: #ffd200;
 //}
-
+.works {
+  position: relative;
+}
 @media (min-width:768px) {
   .section h2 {
     font-size: 60px;
